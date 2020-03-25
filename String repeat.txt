@@ -1,0 +1,16 @@
+namespace Solution
+{
+  public static class Program
+  {
+    public static string repeatStr(int n, string s)
+    {
+      string temp = "";
+      for (int i = 0; i < n; i++)
+       temp = temp.Insert(0,s);
+        
+      return temp;
+    }
+  }
+}
+
+//https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/csharp
